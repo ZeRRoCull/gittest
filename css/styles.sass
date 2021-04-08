@@ -1,5 +1,6 @@
 *
 	box-sizing: border-box
+
 body
 	font-family: Arial, sans-serif
 	background-color: #f28ff6
@@ -9,3 +10,12 @@ h1
 	font-size: 2em
 	color: #333
 
+.wrapper
+	margin: 0
+	padding: 0
+	&__container
+		width: 100%
+		max-width: 1200px
+		padding: 0 15px
+	& + &__container
+		margin: 0
